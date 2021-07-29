@@ -21,7 +21,7 @@ let user = {
 
 // Twilio and Sendgrid info to be used for AB testing logic later
 let twilio_info = {
-    from: '+15102966273',
+    from: 'YOUR TWILIO NUMBER',
     body: `Reminder for ${user.name} your appointment is coming up tomorrow`,
     twiml: `<Response><Say>Reminder for ${user.name} your appointment is coming up tomorrow</Say></Response>`
 }
