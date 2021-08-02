@@ -25,6 +25,7 @@ PHONE_NUMBER=
 EMAIL=
 ```
 Hold off on adding the `NGROK_URL` value until you have ngrok running.
+
 6. On line 15 in `index.js` you will see the `user` variable, update this your name and a random user id to receive a message.
 7. On line 23 in `index.js` update `twilio_info.from` to your Twilio number.
 8. On line 31 in `index.js` update the `email_msg.from` to your Sendgrid email.
